@@ -1,0 +1,29 @@
+@font-face {
+    font-family: DSEG7;
+    src: url('../fonts/DSEG7Modern-BoldItalic.ttf') format("truetype");
+}
+#clock {
+    position: relative;
+    top: 0px;
+    width: 464px;
+    height: 464px;
+    background-image: url('../images/clock_bg.png');
+    margin: 0 auto;
+}
+#clock div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#digital {
+    border: 2px dashed #75BC43;
+    text-align: center;
+	max-width: 240px;
+	margin: 0 auto;
+	font-family: DSEG7;
+	font-size: 40px;
+}
+#digital p{
+    color:#75BC43;
+    padding: 0.6rem;
+}

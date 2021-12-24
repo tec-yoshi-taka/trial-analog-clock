@@ -1,16 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>アナログ時計</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 画面全体の背景色を変えてみよう */
+        body{
+
+        }
+    </style>
 </head>
+
 <body>
+    <div id="clock">
+        <div id="hour"><img src="images/hourHand.png"></div>
+        <div id="minute"><img src="images/minuteHand.png"></div>
+        <div id="second"><img src="images/secondHand.png"></div>
+    </div>
+    <div id="digital">
+        <p id="time">00:00:00</p>
+    </div>
     <script>
-        const now = new Date();
-        let hour = now.getHours();
-        alert(hour); 
+        const hourHand = document.querySelector('#hour');//短針の画像
+        const minHand = document.querySelector('#minute');//秒針の画像
+        const secHand = document.querySelector('#second');//長針の画像
+        const time = document.querySelector('#time');
+
+        const clock = () => {
+            const now = new Date();
+            let hour = now.getHours();
+            // alert(hour); 
+            let min = now.getMinutes();
+            let sec = now.getSeconds();
+
+            time.innerHTML = `${hour}:${min}:${sec}`;
+            requestAnimationFrame(clock);
+        }
+        clock();
+
+        
     </script>
 </body>
+
 </html>
