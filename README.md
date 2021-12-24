@@ -1,6 +1,11 @@
 
 # Javascriptで時計を作成してみよう
 ![時計の表示](./img/clock.png)
+
+## スライド資料
+[資料へのリンク](https://drive.google.com/file/d/1Kf8A2DaVexGWCoJAmtOE-C-4WMAAhjVF/view?usp=sharing)  
+<br>
+
 ## Javascriptのコードの部分はこちらを参照してください。
 <br>
 
