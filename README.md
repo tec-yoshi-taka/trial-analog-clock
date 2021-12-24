@@ -20,6 +20,7 @@ const now = new Date();
 let hour = now.getHours();
 alert(hour); 
 ```
+
 :::note info
 今が13時の場合
 :::
