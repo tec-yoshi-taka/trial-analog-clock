@@ -1,6 +1,6 @@
 
 # Javascriptで時計を作成してみよう
-
+![時計の表示](./img/clock.png)
 ## Javascriptのコードの部分はこちらを参照してください。
 <br>
 
@@ -150,6 +150,6 @@ secHand.style.transform = `rotate(${sec*6}deg)`;
 hourHand.style.transform = `rotate(${(hour+min/60)*30}deg)`;
 
 ```
-
+![時計の表示](./img/clock.png)
 ---
 
