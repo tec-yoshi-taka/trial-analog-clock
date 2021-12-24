@@ -103,3 +103,44 @@ hourHand.style.transform = `rotate(30deg)`;
 
 ---
 
+## スライド P.34
+### ３つの針を好きな傾きに動かしてみよう  
+
+```javascript
+
+hourHand.style.transform = `rotate(30deg)`;
+minHand.style.transform = `rotate(80deg)`;
+secHand.style.transform = `rotate(240deg)`;
+
+```
+### ３つの針が別々に傾きます
+
+---
+
+---
+
+## スライド P.36
+### ３つの針を時刻に合わせて動かしてみよう  
+
+```javascript
+
+hourHand.style.transform = `rotate(${hour*30}deg)`;
+minHand.style.transform = `rotate(${min*6}deg)`;
+secHand.style.transform = `rotate(${sec*6}deg)`;
+
+```
+### ３つの針が別々に傾きます
+
+---
+
+## スライド P.3
+### 短針を正確な位置に合わせよう  
+
+```javascript
+
+hourHand.style.transform = `rotate(${(hour+min/60)*30}deg)`;
+
+```
+
+---
+

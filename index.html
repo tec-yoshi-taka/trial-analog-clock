@@ -40,7 +40,11 @@
 
             time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.slice(-2)}`;
 
-            hourHand.style.transform = `rotate(30deg)`;
+            hourHand.style.transform = `rotate(${hour*30}deg)`;
+            minHand.style.transform = `rotate(${min*6}deg)`;
+            secHand.style.transform = `rotate(${sec*6}deg)`;
+
+
 
             requestAnimationFrame(clock);
         }
