@@ -133,7 +133,7 @@ secHand.style.transform = `rotate(${sec*6}deg)`;
 
 ---
 
-## スライド P.3
+## スライド P.38
 ### 短針を正確な位置に合わせよう  
 
 ```javascript
