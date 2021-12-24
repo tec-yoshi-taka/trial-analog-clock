@@ -2,6 +2,7 @@
 # Javascriptで時計を作成してみよう
 
 ## Javascriptのコードの部分はこちらを参照してください。
+<br>
 
 ---
 
@@ -16,6 +17,7 @@ alert(hour);
 
 #### 今が13時の場合
 ![アラートの表示](./img/alert.png)
+<br>
 
 ---
 
@@ -36,6 +38,8 @@ time.innerHTML = `${hour}:00:00`;
 
 ![アラートの表示](./img/degital01.png)
 #### 今が14時の場合
+<br>
+
 ---
 
 ## スライド P.24
@@ -53,6 +57,7 @@ time.innerHTML = `${hour}:${min}:${sec}`;
 
 ![アラートの表示](./img/degital02.png)
 #### 今が14時13分43秒の場合
+<br>
 
 ---
 
@@ -73,6 +78,7 @@ const clock = () => {
 clock();
 ```
 ### デジタル時計が動きだします  
+<br>
 
 
 ---
@@ -86,6 +92,7 @@ time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.sli
 
 ```
 ### 全て二桁表示になります
+<br>
 
 ---
 
@@ -99,6 +106,7 @@ hourHand.style.transform = `rotate(30deg)`;
 
 ```
 ### 短針が30度傾きます
+<br>
 
 
 ---
@@ -114,8 +122,8 @@ secHand.style.transform = `rotate(240deg)`;
 
 ```
 ### ３つの針が別々に傾きます
+<br>
 
----
 
 ---
 
@@ -130,6 +138,7 @@ secHand.style.transform = `rotate(${sec*6}deg)`;
 
 ```
 ### ３つの針が別々に傾きます
+<br>
 
 ---
 
