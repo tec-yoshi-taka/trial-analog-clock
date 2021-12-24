@@ -89,3 +89,17 @@ time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.sli
 
 ---
 
+# アナログ時計の針を動かそう
+
+## スライド P.33
+
+```javascript
+
+hourHand.style.transform = `rotate(30deg)`;
+
+```
+### 短針が30度傾きます
+
+
+---
+

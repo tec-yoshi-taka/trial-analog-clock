@@ -38,7 +38,10 @@
             let min = now.getMinutes();
             let sec = now.getSeconds();
 
-            time.innerHTML = `${hour}:${min}:${sec}`;
+            time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.slice(-2)}`;
+
+            hourHand.style.transform = `rotate(30deg)`;
+
             requestAnimationFrame(clock);
         }
         clock();
