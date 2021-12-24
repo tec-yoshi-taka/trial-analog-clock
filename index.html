@@ -28,9 +28,24 @@
         const hourHand = document.querySelector('#hour');//短針の画像
         const minHand = document.querySelector('#minute');//秒針の画像
         const secHand = document.querySelector('#second');//長針の画像
+        const time = document.querySelector('#time');
 
+        const clock = () => {
+            const now = new Date();
+            let hour = now.getHours();
+            // alert(hour); 
+            let min = now.getMinutes();
+            let sec = now.getSeconds();
 
-        
+            time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.slice(-2)}`;
+
+            hourHand.style.transform = `rotate(30deg)`;
+            minHand.style.transform = `rotate(80deg)`;
+            secHand.style.transform = `rotate(240deg)`;
+
+            requestAnimationFrame(clock);
+        }
+clock();
     </script>
 </body>
 
