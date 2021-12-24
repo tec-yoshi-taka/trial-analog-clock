@@ -21,10 +21,7 @@ let hour = now.getHours();
 alert(hour); 
 ```
 
-:::note info
-今が13時の場合
-:::
-
+#### 今が13時の場合
 ![アラートの表示](./img/alert.png)
 <br>
 
@@ -43,10 +40,10 @@ time.innerHTML = `${hour}:00:00`;
 
 ```
 ## 下記のような表示になります
-
+#### 今が14時の場合
 
 ![アラートの表示](./img/degital01.png)
-#### 今が14時の場合
+
 <br>
 
 ---
@@ -62,10 +59,10 @@ let sec = now.getSeconds();
 time.innerHTML = `${hour}:${min}:${sec}`;
 ```
 ## 下記のような表示になります
-
+#### 今が14時13分43秒の場合
 
 ![アラートの表示](./img/degital02.png)
-#### 今が14時13分43秒の場合
+
 <br>
 
 ---
@@ -101,6 +98,8 @@ time.innerHTML = `${`0${hour}`.slice(-2)}:${`0${min}`.slice(-2)}:${`0${sec}`.sli
 
 ```
 ### 全て二桁表示になります
+![二桁表示](./img/degital03.png)
+
 <br>
 
 ---
