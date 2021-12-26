@@ -3,7 +3,7 @@
 ![時計の表示](./img/clock.png)
 
 ## スライド資料
-[資料へのリンク](https://drive.google.com/file/d/1Kf8A2DaVexGWCoJAmtOE-C-4WMAAhjVF/view?usp=sharing)  
+[資料へのリンク](https://drive.google.com/file/d/1Kf8A2DaVexGWCoJAmtOE-C-4WMAAhjVF/view?usp=sharing){:target="_blank"}  
 <br>
 
 ---
