@@ -8,7 +8,7 @@
 
 ## 完成イメージ
 [完成イメージへのリンク](https://tec-yoshi-taka.github.io/analog-clock-finish/clock_finish.html)
-<br>
+<br><br>
 ---
 
 # Javascriptのコードの部分はこちらを参照してください。
