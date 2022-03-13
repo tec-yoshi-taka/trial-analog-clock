@@ -6,6 +6,8 @@
 [資料へのリンク](https://drive.google.com/file/d/1Kf8A2DaVexGWCoJAmtOE-C-4WMAAhjVF/view?usp=sharing)
 <br>
 
+## 完成イメージ
+[完成イメージへのリンク](https://tec-yoshi-taka.github.io/analog-clock-finish/clock_finish.html)
 ---
 
 ## Javascriptのコードの部分はこちらを参照してください。
